@@ -12,7 +12,7 @@
       <p class="product-price">{{product.productPrice}} руб.</p>
       {% if user.is_authenticated and not user.is_superuser and not user.is_staff %}
       <a href="{% url 'addToCart' parametr=product.productID %}" class="add-to-catr-link"
-        ><div class="product-buy-button"><span class="plus">+&nbsp;</span>В корзину</div></a
+        ><div class="product-buy-button"><span class="plus">+&nbsp;</span>Купить</div></a
       >
       {% endif %}
     </div>

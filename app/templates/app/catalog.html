@@ -32,7 +32,7 @@
       <p class="product-price">{{product.productPrice}} <span class="rub">руб.</span></p>
       <div class="buttons">
         {% if user.is_authenticated and not user.is_superuser and not user.is_staff %}
-        <a class="tocart-link btn-link" href="{% url 'addToCart' parametr=product.productID %}"><p class="product-details">+&nbsp;В конзину</p></a>
+        <a class="tocart-link btn-link" href="{% url 'addToCart' parametr=product.productID %}"><p class="product-details">+&nbsp;В корзину</p></a>
         {% endif %}
         <a class="details-link btn-link" href="{% url 'product' parametr=product.productCode %}"><p class="product-details">Подробнее</p></a>
       </div>

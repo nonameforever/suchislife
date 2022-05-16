@@ -8,7 +8,7 @@ from django.db import models
 # Create your models here.
 from datetime import datetime
 from django.contrib import admin
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.contrib.auth.models import User
 from django.db.models.fields import CharField
 

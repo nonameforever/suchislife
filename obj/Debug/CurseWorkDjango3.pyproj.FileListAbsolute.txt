@@ -1,0 +1,6 @@
+C:\Users\Nikolylin\source\repos\inoplanetyanya\CurseWorkDjango\obj\Debug\CurseWorkDjango3.pyproj.CoreCompileInputs.cache
+C:\Users\Nikolylin\source\repos\inoplanetyanya\CurseWorkDjango\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Nikolylin\source\repos\inoplanetyanya\CurseWorkDjango\bin\wfastcgi.py
+C:\Users\Nikolylin\Desktop\Prolog\suchislife\CurseWorkDjango\obj\Debug\CurseWorkDjango3.pyproj.CoreCompileInputs.cache
+C:\Users\Nikolylin\Desktop\Prolog\suchislife\CurseWorkDjango\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Nikolylin\Desktop\Prolog\suchislife\CurseWorkDjango\bin\wfastcgi.py

@@ -1,0 +1,3 @@
+C:\Users\Nikolylin\Source\Repos\inoplanetyanya\CurseWorkDjango\obj\Debug\CurseWorkDjango.pyproj.CoreCompileInputs.cache
+C:\Users\Nikolylin\Source\Repos\inoplanetyanya\CurseWorkDjango\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Nikolylin\Source\Repos\inoplanetyanya\CurseWorkDjango\bin\wfastcgi.py
