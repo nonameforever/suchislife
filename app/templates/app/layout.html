@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }} - HardGame</title>
+    <title>{{ title }} - ПРОФИ TRAVEL</title>
     {% load staticfiles %}
 
     <link rel="icon" href="{% static 'app/content/logo.png' %}" />
@@ -33,10 +33,10 @@
           <div class="header-left">
             <div class="header-link-container">
               <a href="/" class="header-link logo-link"
-                ><img class="logo" src="{% static 'app/content/logo.png' %}" alt="logo" /><span>HardGame</span></a>
+                ><img class="logo" src="{% static 'app/content/logo2.jpg' %}" alt="logo" /><span>ПРОФИ-TRAVEL</span></a>
             </div>
             <div class="header-link-container">
-              <a class="header-link" href="{% url 'catalog' %}">Каталог</a>
+              <a class="header-link" href="{% url 'catalog' %}">Туры</a>
             </div>
             <div class="header-link-container">
               <a class="header-link" href="{% url 'news' %}">Новости</a>
@@ -52,7 +52,7 @@
             </div>
             {% endif %} {% if user.is_authenticated and not user.is_staff %}
             <div class="header-link-container manager-orders-link-container">
-              <a class="header-link" href="{% url 'client-orders' %}">Заказы</a>
+              <a class="header-link" href="{% url 'client-orders' %}">Состояние заказа</a>
             </div>
             {% endif %} {% if user.is_staff %}
             <div class="header-link-container manager-orders-link-container">
@@ -73,7 +73,7 @@
       {% block content %}{% endblock %}
       <hr />
       <footer>
-        <p>&copy; {{ year }} - HardGame</p>
+          <p>&copy; {{ year }} - Профитрэвел</p>
       </footer>
     </div>
 

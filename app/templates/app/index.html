@@ -1,11 +1,28 @@
 {% extends "app/layout.html" %} {% load staticfiles %} {% block content %}
 <div class="home-container">
   <div class="hcc">
-    <h1 class="title">Добро пожаловать в HardGame</h1>
-    <h3 class="text">Лучший магазин дешёвых ключей для игр.</h3>
-    <div class="img-container">
-      <img src="{% static 'app/content/5c15ef753054e167b5af61ce.png' %}" />
+      <h1 class="title">Добро пожаловать на сайт туристической фирмы ПРОФИ-TRAVEL</h1>
+    <h3 class="text">Наша команда благодарна за выбор нашей фирмы для вашего отдыха.</h3>
+        <div class="index-typer">
+            <div class ="index-container">
+                <index>
+                    <p> «ПРОФИ TRAVEL» — это надежная транспортная компания России и ближнего зарубежья, имеющая десятилетний опыт работы и сотрудничество с ведущими компаниями России.
+                       Наша цель — сделать Ваш отдых незабываемым и подарить Вам как можно больше новых маршрутов.
+                       Мы готовы предложить Вам умеренные цены на туры за счет собственного автобусного парка.
+                       Компании «Профи Travel» подходит к своей работе качественно и максимально ответственно!</p>
+                </index>
+            </div>
+            <div class="btn1">
+                    <btn>
+                        <form action="{% url 'catalog' %}" method="post">
+                            {% csrf_token %}
+                            <input type="submit" class="btn" value="Новые эмоции ждут" name="mybtn">
+                        </form>
+                    </btn>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
-</div>
+
 {% endblock %}

@@ -1,0 +1,7 @@
+F:\Брутанн\Курсовая\suchislife\CurseWorkDjango\obj\Any CPU\Debug\CurseWorkDjango3.pyproj.CoreCompileInputs.cache
+F:\Брутанн\Курсовая\suchislife\CurseWorkDjango\bin\Microsoft.PythonTools.WebRole.dll
+F:\Брутанн\Курсовая\suchislife\CurseWorkDjango\bin\wfastcgi.py
+C:\Users\nikol\Desktop\Брутанн\Курсовая\suchislife\CurseWorkDjango\obj\Any CPU\Debug\CurseWorkDjango3.pyproj.SuggestedBindingRedirects.cache
+C:\Users\nikol\Desktop\Брутанн\Курсовая\suchislife\CurseWorkDjango\obj\Any CPU\Debug\CurseWorkDjango3.pyproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\Брутанн\Курсовая\suchislife\CurseWorkDjango\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\nikol\Desktop\Брутанн\Курсовая\suchislife\CurseWorkDjango\bin\wfastcgi.py

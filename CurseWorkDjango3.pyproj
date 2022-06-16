@@ -14,6 +14,7 @@
     <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
     <WebBrowserUrl>http://localhost</WebBrowserUrl>
     <DjangoSettingsModule>CourseWork.settings</DjangoSettingsModule>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -34,7 +35,6 @@
     <Content Include="app\static\app\content\logo.svg" />
     <Content Include="app\static\app\content\manager-orders-styles.css" />
     <Content Include="app\static\app\content\product-styles.css" />
-    <Content Include="app\static\app\content\registration-styles.css" />
     <Content Include="app\static\app\content\site.css" />
     <Content Include="app\static\app\content\style.css" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.svg" />
@@ -277,8 +277,8 @@
   <ItemGroup>
     <Interpreter Include="env1\">
       <Id>env1</Id>
-      <Version>3.6</Version>
-      <Description>env1 (Python 3.6 (64-bit))</Description>
+      <Version>3.9</Version>
+      <Description>env1 (Python 3.9 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>

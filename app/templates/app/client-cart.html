@@ -1,7 +1,7 @@
 {% extends "app/layout.html" %} {% block content %}
 <div class="cart-container">
   <div class="cart-info">
-    <p class="cart-title">В вашей корзине продукты на сумму <strong>{{totalSum}} руб.</strong></p>
+    <p class="cart-title">Заказ на сумму <strong> {{totalSum}} руб.</strong></p>
     {% if profileFilled %}
     <a class="place-an-order-link" href="{% url 'makeOrders' parametr=0 %}"><div class="place-an-order">Оформить заказ</div></a>
     {% else %}
@@ -19,7 +19,7 @@
           <p>Наименование</p>
           <p>Код продукта</p>
           <p>Стоимость</p>
-          <p>Количество</p>
+          <p>Количество мест</p>
           <p>Общая стоимость</p>
         </div>
         <div class="center-part">

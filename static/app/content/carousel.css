@@ -71,13 +71,7 @@
   text-decoration: none;
 }
 
-.carousel-control.left {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-}
 
-.carousel-control.right {
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-}
 
 .carousel-control:hover {
   color: #ffffff;
